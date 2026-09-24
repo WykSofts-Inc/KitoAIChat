@@ -200,6 +200,13 @@ fonts, spacing and radii come from `kitoTheme`, so light and dark mode follow yo
 public view takes an optional `tint`; without one, links use the theme's primary colour and the
 send button uses the text colour — black in light mode, white in dark.
 
+## Right-to-left
+
+Everything mirrors with the layout direction: bubbles, chips, the composer, the sidebar and the
+shimmer sweep. Markdown table columns map `:--` / `--:` to the leading / trailing edge, so they
+follow the reading direction. Code blocks keep their source left-to-right (the header still
+mirrors), and follow-up chips flip their arrow.
+
 ## Installation
 
 ```swift

@@ -53,6 +53,8 @@ public struct KitoAICodeBlock: View {
                     .fixedSize(horizontal: false, vertical: true)
                     .padding(theme.spacing.md)
             }
+            // Source code reads left to right in every language.
+            .environment(\.layoutDirection, .leftToRight)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(RoundedRectangle(cornerRadius: theme.radii.lg, style: .continuous).fill(theme.colors.surfaceMuted))

@@ -122,7 +122,7 @@ extension View {
     }
 }
 
-/// Lays chips out left to right, wrapping onto new lines.
+/// Lays chips out from the leading edge, wrapping onto new lines.
 struct KitoAIFlowLayout: Layout {
     var spacing: CGFloat = 8
     var lineSpacing: CGFloat = 8

@@ -212,6 +212,7 @@ public struct KitoAIFollowUpChips: View {
             HStack(spacing: theme.spacing.xs + 2) {
                 Image(systemName: "arrow.turn.down.right")
                     .font(.caption.weight(.bold))
+                    .flipsForRightToLeftLayoutDirection(true)
                     .foregroundStyle(accent)
                 Text(suggestion)
                     .font(theme.typography.label)

@@ -1,5 +1,7 @@
 # KitoAIChat
 
+**[Documentation](https://wyksofts-inc.github.io/KitoAIChat/documentation/kitoaichat/)**
+
 An AI chat UI kit for SwiftUI that works with any model: streaming replies with markdown, code
 blocks and tables, tool-use chips, sources, Stop, Regenerate, feedback, edit-and-resend, a
 composer with dictation and a model picker, a conversation sidebar and a welcome screen. It has no
